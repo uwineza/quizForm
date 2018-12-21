@@ -8,3 +8,10 @@ body {
     border: 1px solid green;
     background-color: burlywood;
 }
+
+#result {
+    display: none;
+    color: green;
+    font-size: xx-large;
+    text-align: center;
+}
