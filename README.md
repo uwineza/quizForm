@@ -8,7 +8,7 @@ To start using this project follow these steps:
 * cd quizForm
 * code .
 ## BDD
-### BEHAVIOR:
+### BEHAVIORS:
 * The user can select the answers of the questions
   * Input:user select answer "A"
   * Output:it save "A
