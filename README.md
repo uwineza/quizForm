@@ -11,17 +11,17 @@ code .
 ## BDD
 ### BEHAVIOR:
 * The user can select the answers of the user
- ** Input:user select answer "A"
- ** Output:it save "A
+  * Input:user select answer "A"
+  * Output:it save "A
 * It can save the correct answers of the questions
- ** Input:teacher or composer enter correct answers to the questions
- ** Output:save all correct answers:A;B;C
+  * Input:teacher or composer enter correct answers to the questions
+  * Output:save all correct answers:A;B;C
 * It can compare the answers of the user  to the correct answers
- ** Input:user answers:A;B;A
- ** Output:A == A ;B ==B; A!= C
+  * Input:user answers:A;B;A
+  * Output:A == A ;B ==B; A!= C
 * It can show the score of the user immediately
- ** Input:click on submit button
- ** Output:score:2/3
+  * Input:click on submit button
+  * Output:score:2/3
 
 ## Technologies Used
 For build this project we use:
