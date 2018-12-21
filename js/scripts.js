@@ -19,6 +19,7 @@ function getScore() {
     return score;
 
 }
+//user interface logic(front-end)
 $(document).ready(function () {
     $("form").submit(function (event) {
         var answers = [];
