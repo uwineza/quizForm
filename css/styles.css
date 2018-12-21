@@ -22,3 +22,9 @@ body {
     color: brown;
     text-align: center;
 }
+
+footer {
+    text-align: center;
+    font-size: small;
+    background-color: rgb(218, 195, 195);
+}
