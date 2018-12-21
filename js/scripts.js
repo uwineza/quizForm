@@ -29,9 +29,11 @@ $(document).ready(function () {
     $("#submit").click(function () {
         $("#result").toggle();
         $("#quiz").toggle();
+        $("#score").show();
     });
     $("#score").click(function () {
         $("#quiz").show();
         $("#result").hide();
+        $("#score").hide();
     });
 });
