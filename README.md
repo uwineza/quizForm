@@ -9,7 +9,7 @@ To start using this project follow these steps:
 * code .
 ## BDD
 ### BEHAVIOR:
-* The user can select the answers of the user
+* The user can select the answers of the questions
   * Input:user select answer "A"
   * Output:it save "A
 * It can save the correct answers of the questions
@@ -24,10 +24,10 @@ To start using this project follow these steps:
 
 ## Technologies Used
 For build this project we use:
-HTML
-CSS;
-JavaScript
-jQuery
+* HTML
+* CSS;
+* JavaScript
+* jQuery
 ## Support and contact details
 For any issues or have questions, ideas or concerns use these contacts:
 
