@@ -4,10 +4,9 @@
 JavaScript Quiz Form is the form containaing different questions,you answer them and submit and after submit you get the result or score immediately.After submit the foarm is hidden and the score is shown and if you want to return to your foarm you can do it.
 ## Setup/Installation Requirements
 To start using this project follow these steps:
-
-git clone on:https://github.com/uwineza/quizForm.git and This is my hosted link: 
-cd quizForm
-code .
+* git clone on:https://github.com/uwineza/quizForm.git  
+* cd quizForm
+* code .
 ## BDD
 ### BEHAVIOR:
 * The user can select the answers of the user
