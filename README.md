@@ -14,14 +14,14 @@ code .
  ** Input:user select answer "A"
  ** Output:it save "A
 * It can save the correct answers of the questions
-** Input:teacher or composer enter correct answers to the questions
-** Output:save all correct answers:A;B;C
+ ** Input:teacher or composer enter correct answers to the questions
+ ** Output:save all correct answers:A;B;C
 * It can compare the answers of the user  to the correct answers
-** Input:user answers:A;B;A
-** Output:A == A ;B ==B; A!= C
+ ** Input:user answers:A;B;A
+ ** Output:A == A ;B ==B; A!= C
 * It can show the score of the user immediately
-** Input:click on submit button
-** Output:score:2/3
+ ** Input:click on submit button
+ ** Output:score:2/3
 
 ## Technologies Used
 For build this project we use:
@@ -36,4 +36,4 @@ For any issues or have questions, ideas or concerns use these contacts:
 * Email:niyinezafofo@gmail.com .
 * For making a contribution to the code this is the github link: https://github.com/uwineza/quizForm.git
 License
-Copyright (c) 2018** Florentine JavaScript Quiz Form**
+Copyright (c) 2018 Florentine JavaScript Quiz Form
