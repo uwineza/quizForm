@@ -9,3 +9,12 @@ function getCheckedValue(radioName) {
     // return the checked value
 
 }
+
+function getScore() {
+    var score = 0;
+    for (var i = 0; i < tot; i++)
+        if (getCheckedValue("question" + i) === answers[i])
+            score += 1; // increment only
+    return score;
+
+}
