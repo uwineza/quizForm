@@ -30,7 +30,7 @@ $(document).ready(function () {
         $("#result").toggle();
         $("#quiz").toggle();
     });
-    $("#result").click(function () {
+    $("#score").click(function () {
         $("#quiz").show();
         $("#result").hide();
     });
