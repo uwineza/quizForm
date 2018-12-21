@@ -18,3 +18,14 @@ function getScore() {
     return score;
 
 }
+$(document).ready(function () {
+    $("form").submit(function (event) {
+        var answers = [];
+        $("#result").text("your score is " + getScore(answers));
+        $("#story").show();
+        event.preventDefault();
+    });
+    $("#score").click(function () {
+        $("#result").toggle();
+    });
+});
