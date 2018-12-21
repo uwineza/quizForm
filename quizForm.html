@@ -1,34 +1,124 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <title>QUIZ FOARM</title>
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
-        <script src="js/scripts.js"></script>
-    </head>
-    <body>
-        <div class="container">
-            <div class="jumbotron">
-                <h1> JavaScript QUIZ FOARM</h1>
-                <p>There are some instructions of doing this Quiz:</p>
-                <ul>
-                    <li>Each question has 1 point and the quiz will be worked on
-                        10 points</li>
-                    <li>Select one answer for each question.</li>
-                    <li>Answer all questions.</li>
-                    <li>After answering all qustions click on submit button.</li>
-                    <li>To see your score click on the paragraph below</li>
-                    <li>To hide also your score click also on that paragraph
-                        below</li>
-                </ul>
-            </div>
-            <form id="quiz">
-                <div id="quiz">
+<head>
+    <title>QUIZ FOARM</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</head>
 
-                </div>
-            </form>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1> JavaScript QUIZ FOARM</h1>
+            <p>There are some instructions of doing this Quiz:</p>
+            <ul>
+                <li>Each question has 1 point and the quiz will be worked on
+                    10 points</li>
+                <li>Select one answer for each question.</li>
+                <li>Answer all questions.</li>
+                <li>After answering all qustions click on submit button.</li>
+                <li>To see your score click on the paragraph below</li>
+                <li>To hide also your score click also on that paragraph
+                    below</li>
+            </ul>
         </div>
-    </body>
+        <form id="quiz">
+            <div id="quiz">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>
+                                1. Which of the following is correct about features of JavaScript?</strong><br />
+                            <input type="radio" name="question0" value="A" /> JavaScript is a
+                            lightweight, interpreted programming language<BR />
+                            <input type="radio" name="question0" value="B" /> JavaScript is designed
+                            for creating network-centric applications<br />
+                            <input type="radio" name="question0" value="C" /> JavaScript is
+                            complementary to and integrated with Java<br />
+                            <input type="radio" name="question0" value="D" /> All of the above.<br />
+                        </p>
+                        <p><strong>
+                                2. Which of the following is the correct syntax to print a page using
+                                JavaScript?</strong><br />
+                            <input type="radio" name="question1" value="A" /> window.print();<BR />
+                            <input type="radio" name="question1" value="B" /> browser.print();<br />
+                            <input type="radio" name="question1" value="C" />navigator.print();<br />
+                            <input type="radio" name="question1" value="D" />document.print();<br />
+                        </p>
+                        <p><strong>
+                                3.. Which built-in method calls a function for each element in the
+                                array?</strong><br />
+                            <input type="radio" name="question2" value="A" /> while()</BR>
+                            <input type="radio" name="question2" value="B" /> loop()<br />
+                            <input type="radio" name="question2" value="C" /> forEach()<br />
+                            <input type="radio" name="question2" value="D" />None of the above<br />
+                        </p><strong>
+                            4.Which built-in method returns the calling string value converted to upper case?</strong><br />
+                        <input type="radio" name="question3" value="A" /> toUpperCase()</BR>
+                        <input type="radio" name="question3" value="B" /> toUpper()<br />
+                        <input type="radio" name="question3" value="C" /> changeCase(case)<br />
+                        <input type="radio" name="question3" value="D" />None of the above<br />
+                        </p><strong>
+                            5.Which of the following function of String object combines the text of two strings and
+                            returns a new
+                            string?</strong>
+
+                        <br />
+                        <input type="radio" name="question4" value="A" /> add()</BR>
+                        <input type="radio" name="question4" value="B" /> merge()<br />
+                        <input type="radio" name="question4" value="C" /> concat()<br />
+                        <input type="radio" name="question4" value="D" />append()<br />
+                        </p><strong>
+                    </div>
+                    <div class="col-md-6">
+                        6.Which of the following function of String object splits a String object into an array of
+                        strings by
+                        separating the string into substrings?</strong>
+                        <br />
+                        <input type="radio" name="question5" value="A" /> slice()</BR>
+                        <input type="radio" name="question5" value="B" /> split()<br />
+                        <input type="radio" name="question5" value="C" /> replace()<br />
+                        <input type="radio" name="question5" value="D" />search()<br />
+                        </p>
+                        <p><strong>
+                                7. Which of the following function of String object returns the primitive value of the
+                                specified object</strong><br>
+                            <input type="radio" name="question6" value="A" />toLocaleUpperCase()</BR>
+                            <input type="radio" name="question6" value="B" /> toUpperCase()<br />
+                            <input type="radio" name="question6" value="C" /> toString()<br />
+                            <input type="radio" name="question6" value="D" />valueOf()<br />
+                        </p>
+                        <p><strong>
+                                8. Which of the following function of Array object sorts the elements of an array?</strong><br>
+                            <input type="radio" name="question7" value="A" />toSource()</BR>
+                            <input type="radio" name="question7" value="B" /> sort()<br />
+                            <input type="radio" name="question7" value="C" /> toString()<br />
+                            <input type="radio" name="question7" value="D" />unshift()<br />
+                        </p>
+                        <p><strong>
+                                9. Why so JavaScript and Java have similar name?</strong><br>
+                            <input type="radio" name="question8" value="A" />JavaScript is a stripped-down version of
+                            Java</BR>
+                            <input type="radio" name="question8" value="B" /> JavaScript's syntax is loosely based on
+                            Java's<br />
+                            <input type="radio" name="question8" value="C" /> They both originated on the island of
+                            Java<br />
+                            <input type="radio" name="question8" value="D" />none of the above<br />
+                        </p>
+                        <p><strong>
+                                10.What are variables used for in JavaScript programs?</strong><br>
+                            <input type="radio" name="question9" value="A" />Storing numbers ; dates or other values</BR>
+                            <input type="radio" name="question9" value="B" /> varying randomly<br />
+                            <input type="radio" name="question9" value="C" /> Causing high-school algebra flashbacks<br />
+                            <input type="radio" name="question9" value="D" />none of the above<br />
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
