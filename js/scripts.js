@@ -19,7 +19,6 @@ function getScore() {
     return score;
 
 }
-//user interface logic(front-end)
 $(document).ready(function () {
     $("form").submit(function (event) {
         var answers = [];
@@ -27,7 +26,12 @@ $(document).ready(function () {
         $("#story").show();
         event.preventDefault();
     });
-    $("#score").click(function () {
+    $("#submit").click(function () {
         $("#result").toggle();
+        $("#quiz").toggle();
+    });
+    $("#result").click(function () {
+        $("#quiz").show();
+        $("#result").hide();
     });
 });
