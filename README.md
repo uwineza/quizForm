@@ -21,6 +21,9 @@ To start using this project follow these steps:
 * It can show the score of the user immediately
   * Input:click on submit button
   * Output:score:2/3
+* After submiting ; the form is hidden and the score is shown
+  * Input:submit button
+  * Output:form is hidden and score is shown
 
 ## Technologies Used
 For build this project we use:
